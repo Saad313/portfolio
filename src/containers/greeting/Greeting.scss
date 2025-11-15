@@ -99,6 +99,16 @@
     font-size: 20px;
   }
 }
+
+@media (max-width: 450px) {
+  .button-greeting-div {
+    flex-direction: column;
+    align-items: center;
+  }
+  .button-greeting-contact-me {
+    min-width: 195px;
+  }
+}
 @media (max-width: 768px) {
   .button-greeting-div {
     justify-content: space-around;
